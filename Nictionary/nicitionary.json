@@ -107,7 +107,7 @@
     },
     {
         "id":15,
-        "file":"word_BFF",
+        "file":"word_bff",
         "def":"1. Barbie For FuckinEve",
         "phon":"\\b-f-f\\ n",
         "name":"BFF"
@@ -184,7 +184,7 @@
     },
     {
         "id":26,
-        "file":"word_GBR",
+        "file":"word_gbr",
         "def":"1. Abbreviation for “Got a Barbie Rollin”.",
         "phon":"\\g-b-r\\ v",
         "name":"GBR"
@@ -205,7 +205,7 @@
     },
     {
         "id":29,
-        "file":"word_HB",
+        "file":"word_hb",
         "def":"1. abbreviation of Harajuku Barbie.",
         "phon":"\\h-b\\ n",
         "name":"HB"

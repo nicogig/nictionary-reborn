@@ -66,6 +66,10 @@
 		89106B9F27AAE81100D20627 /* card_front_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 89106B9E27AAE81100D20627 /* card_front_background.png */; };
 		89106BA127AAF2CC00D20627 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106BA027AAF2CC00D20627 /* PlaySound.swift */; };
 		89106BA827AB02B700D20627 /* cardpile.png in Resources */ = {isa = PBXBuildFile; fileRef = 89106BA727AB02B700D20627 /* cardpile.png */; };
+		899C913027AC77F7001772AF /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C912F27AC77F7001772AF /* TabView.swift */; };
+		899C913327AC808F001772AF /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 899C913227AC808F001772AF /* Collections */; };
+		899C913527AC808F001772AF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 899C913427AC808F001772AF /* OrderedCollections */; };
+		899C913727AC8146001772AF /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C913627AC8146001772AF /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +153,8 @@
 		89106BA027AAF2CC00D20627 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		89106BA627AB022600D20627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		89106BA727AB02B700D20627 /* cardpile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardpile.png; sourceTree = "<group>"; };
+		899C912F27AC77F7001772AF /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		899C913627AC8146001772AF /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899C913527AC808F001772AF /* OrderedCollections in Frameworks */,
+				899C913327AC808F001772AF /* Collections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +187,8 @@
 		89106B0427AAADC500D20627 = {
 			isa = PBXGroup;
 			children = (
+				899C912F27AC77F7001772AF /* TabView.swift */,
+				899C913627AC8146001772AF /* TabButton.swift */,
 				89106B0F27AAADC500D20627 /* Nictionary */,
 				89106B2027AAADC800D20627 /* NictionaryTests */,
 				89106B2A27AAADC800D20627 /* NictionaryUITests */,
@@ -317,6 +327,10 @@
 			dependencies = (
 			);
 			name = Nictionary;
+			packageProductDependencies = (
+				899C913227AC808F001772AF /* Collections */,
+				899C913427AC808F001772AF /* OrderedCollections */,
+			);
 			productName = Nictionary;
 			productReference = 89106B0D27AAADC500D20627 /* Nictionary.app */;
 			productType = "com.apple.product-type.application";
@@ -389,6 +403,9 @@
 				Base,
 			);
 			mainGroup = 89106B0427AAADC500D20627;
+			packageReferences = (
+				899C913127AC808F001772AF /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 89106B0E27AAADC500D20627 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -483,6 +500,8 @@
 				89106BA127AAF2CC00D20627 /* PlaySound.swift in Sources */,
 				89106B9B27AAE02800D20627 /* ModelData.swift in Sources */,
 				89106B1127AAADC500D20627 /* NictionaryApp.swift in Sources */,
+				899C913027AC77F7001772AF /* TabView.swift in Sources */,
+				899C913727AC8146001772AF /* TabButton.swift in Sources */,
 				89106B9927AAB45900D20627 /* Word.swift in Sources */,
 				89106B9D27AAE3EA00D20627 /* CardView.swift in Sources */,
 			);
@@ -641,7 +660,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Nictionary/Preview Content\"";
 				DEVELOPMENT_TEAM = PBT2VEX3CE;
 				ENABLE_PREVIEWS = YES;
@@ -654,6 +673,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -673,7 +693,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Nictionary/Preview Content\"";
 				DEVELOPMENT_TEAM = PBT2VEX3CE;
 				ENABLE_PREVIEWS = YES;
@@ -686,6 +706,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -815,6 +836,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		899C913127AC808F001772AF /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		899C913227AC808F001772AF /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 899C913127AC808F001772AF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		899C913427AC808F001772AF /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 899C913127AC808F001772AF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89106B0527AAADC500D20627 /* Project object */;
 }
