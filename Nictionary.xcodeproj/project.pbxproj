@@ -14,6 +14,58 @@
 		89106B2227AAADC800D20627 /* NictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106B2127AAADC800D20627 /* NictionaryTests.swift */; };
 		89106B2C27AAADC800D20627 /* NictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106B2B27AAADC800D20627 /* NictionaryUITests.swift */; };
 		89106B2E27AAADC800D20627 /* NictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106B2D27AAADC800D20627 /* NictionaryUITestsLaunchTests.swift */; };
+		89106B6827AAB09800D20627 /* word_catertoyourkenday.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B3B27AAB09500D20627 /* word_catertoyourkenday.m4a */; };
+		89106B6927AAB09800D20627 /* word_chincheck.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B3C27AAB09500D20627 /* word_chincheck.m4a */; };
+		89106B6A27AAB09800D20627 /* word_barbieboombox.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B3D27AAB09500D20627 /* word_barbieboombox.m4a */; };
+		89106B6B27AAB09800D20627 /* word_badbitchcheck.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B3E27AAB09600D20627 /* word_badbitchcheck.m4a */; };
+		89106B6C27AAB09800D20627 /* word_barbiebackhand.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B3F27AAB09600D20627 /* word_barbiebackhand.m4a */; };
+		89106B6D27AAB09800D20627 /* word_balloonboy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4027AAB09600D20627 /* word_balloonboy.m4a */; };
+		89106B6E27AAB09800D20627 /* word_ddandan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4127AAB09600D20627 /* word_ddandan.m4a */; };
+		89106B6F27AAB09800D20627 /* word_firemarshall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4227AAB09600D20627 /* word_firemarshall.m4a */; };
+		89106B7027AAB09800D20627 /* word_hiimronideutch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4327AAB09600D20627 /* word_hiimronideutch.m4a */; };
+		89106B7127AAB09800D20627 /* word_dollylama.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4427AAB09600D20627 /* word_dollylama.m4a */; };
+		89106B7227AAB09800D20627 /* word_binafan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4527AAB09600D20627 /* word_binafan.m4a */; };
+		89106B7327AAB09800D20627 /* word_bff.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4627AAB09600D20627 /* word_bff.m4a */; };
+		89106B7427AAB09800D20627 /* word_gbr.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4727AAB09600D20627 /* word_gbr.m4a */; };
+		89106B7527AAB09800D20627 /* word_getoffmyphone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4827AAB09600D20627 /* word_getoffmyphone.m4a */; };
+		89106B7627AAB09800D20627 /* word_tumbledry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4927AAB09600D20627 /* word_tumbledry.m4a */; };
+		89106B7727AAB09800D20627 /* word_wafflehouse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4A27AAB09600D20627 /* word_wafflehouse.m4a */; };
+		89106B7827AAB09800D20627 /* word_barbiedetention.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4B27AAB09600D20627 /* word_barbiedetention.m4a */; };
+		89106B7927AAB09800D20627 /* word_strawberryshortcake.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4C27AAB09600D20627 /* word_strawberryshortcake.m4a */; };
+		89106B7A27AAB09800D20627 /* word_baldylocks.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4D27AAB09600D20627 /* word_baldylocks.m4a */; };
+		89106B7B27AAB09800D20627 /* word_hb.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4E27AAB09600D20627 /* word_hb.m4a */; };
+		89106B7C27AAB09800D20627 /* word_fetch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B4F27AAB09700D20627 /* word_fetch.m4a */; };
+		89106B7D27AAB09800D20627 /* word_stepyourscottyup.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5027AAB09700D20627 /* word_stepyourscottyup.m4a */; };
+		89106B7E27AAB09800D20627 /* word_ben.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5127AAB09700D20627 /* word_ben.m4a */; };
+		89106B7F27AAB09800D20627 /* word_copyrightin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5227AAB09700D20627 /* word_copyrightin.m4a */; };
+		89106B8027AAB09800D20627 /* word_barbiepowers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5327AAB09700D20627 /* word_barbiepowers.m4a */; };
+		89106B8127AAB09800D20627 /* word_gabbagepatchkid.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5427AAB09700D20627 /* word_gabbagepatchkid.m4a */; };
+		89106B8227AAB09800D20627 /* word_muni.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5527AAB09700D20627 /* word_muni.m4a */; };
+		89106B8327AAB09800D20627 /* word_surfboard.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5627AAB09700D20627 /* word_surfboard.m4a */; };
+		89106B8427AAB09800D20627 /* word_vertical.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5727AAB09700D20627 /* word_vertical.m4a */; };
+		89106B8527AAB09800D20627 /* word_dollhouse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5827AAB09700D20627 /* word_dollhouse.m4a */; };
+		89106B8627AAB09800D20627 /* word_ackorgiddyway.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5927AAB09700D20627 /* word_ackorgiddyway.m4a */; };
+		89106B8727AAB09800D20627 /* word_rogerdat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5A27AAB09700D20627 /* word_rogerdat.m4a */; };
+		89106B8827AAB09800D20627 /* word_wigibear.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5B27AAB09700D20627 /* word_wigibear.m4a */; };
+		89106B8927AAB09800D20627 /* word_alfredbitchcock.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5C27AAB09700D20627 /* word_alfredbitchcock.m4a */; };
+		89106B8A27AAB09800D20627 /* word_barbiejuice.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5D27AAB09700D20627 /* word_barbiejuice.m4a */; };
+		89106B8B27AAB09800D20627 /* word_barbiesfonenumber.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5E27AAB09700D20627 /* word_barbiesfonenumber.m4a */; };
+		89106B8C27AAB09800D20627 /* word_basement.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B5F27AAB09700D20627 /* word_basement.m4a */; };
+		89106B8D27AAB09800D20627 /* word_itsbarbiebitch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6027AAB09700D20627 /* word_itsbarbiebitch.m4a */; };
+		89106B8E27AAB09800D20627 /* word_judgejudy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6127AAB09800D20627 /* word_judgejudy.m4a */; };
+		89106B8F27AAB09800D20627 /* word_barbieberry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6227AAB09800D20627 /* word_barbieberry.m4a */; };
+		89106B9027AAB09800D20627 /* word_frostythesnowman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6327AAB09800D20627 /* word_frostythesnowman.m4a */; };
+		89106B9127AAB09800D20627 /* word_penthouse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6427AAB09800D20627 /* word_penthouse.m4a */; };
+		89106B9227AAB09800D20627 /* word_raggedythespy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6527AAB09800D20627 /* word_raggedythespy.m4a */; };
+		89106B9327AAB09800D20627 /* word_wetwhitewilly.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6627AAB09800D20627 /* word_wetwhitewilly.m4a */; };
+		89106B9427AAB09800D20627 /* word_goose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 89106B6727AAB09800D20627 /* word_goose.m4a */; };
+		89106B9627AAB41C00D20627 /* nicitionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 89106B9527AAB41C00D20627 /* nicitionary.json */; };
+		89106B9927AAB45900D20627 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106B9827AAB45900D20627 /* Word.swift */; };
+		89106B9B27AAE02800D20627 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106B9A27AAE02800D20627 /* ModelData.swift */; };
+		89106B9D27AAE3EA00D20627 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106B9C27AAE3EA00D20627 /* CardView.swift */; };
+		89106B9F27AAE81100D20627 /* card_front_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 89106B9E27AAE81100D20627 /* card_front_background.png */; };
+		89106BA127AAF2CC00D20627 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89106BA027AAF2CC00D20627 /* PlaySound.swift */; };
+		89106BA827AB02B700D20627 /* cardpile.png in Resources */ = {isa = PBXBuildFile; fileRef = 89106BA727AB02B700D20627 /* cardpile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +96,59 @@
 		89106B2727AAADC800D20627 /* NictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89106B2B27AAADC800D20627 /* NictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NictionaryUITests.swift; sourceTree = "<group>"; };
 		89106B2D27AAADC800D20627 /* NictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89106B3B27AAB09500D20627 /* word_catertoyourkenday.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_catertoyourkenday.m4a; sourceTree = "<group>"; };
+		89106B3C27AAB09500D20627 /* word_chincheck.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_chincheck.m4a; sourceTree = "<group>"; };
+		89106B3D27AAB09500D20627 /* word_barbieboombox.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbieboombox.m4a; sourceTree = "<group>"; };
+		89106B3E27AAB09600D20627 /* word_badbitchcheck.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_badbitchcheck.m4a; sourceTree = "<group>"; };
+		89106B3F27AAB09600D20627 /* word_barbiebackhand.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbiebackhand.m4a; sourceTree = "<group>"; };
+		89106B4027AAB09600D20627 /* word_balloonboy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_balloonboy.m4a; sourceTree = "<group>"; };
+		89106B4127AAB09600D20627 /* word_ddandan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_ddandan.m4a; sourceTree = "<group>"; };
+		89106B4227AAB09600D20627 /* word_firemarshall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_firemarshall.m4a; sourceTree = "<group>"; };
+		89106B4327AAB09600D20627 /* word_hiimronideutch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_hiimronideutch.m4a; sourceTree = "<group>"; };
+		89106B4427AAB09600D20627 /* word_dollylama.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_dollylama.m4a; sourceTree = "<group>"; };
+		89106B4527AAB09600D20627 /* word_binafan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_binafan.m4a; sourceTree = "<group>"; };
+		89106B4627AAB09600D20627 /* word_bff.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_bff.m4a; sourceTree = "<group>"; };
+		89106B4727AAB09600D20627 /* word_gbr.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_gbr.m4a; sourceTree = "<group>"; };
+		89106B4827AAB09600D20627 /* word_getoffmyphone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_getoffmyphone.m4a; sourceTree = "<group>"; };
+		89106B4927AAB09600D20627 /* word_tumbledry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_tumbledry.m4a; sourceTree = "<group>"; };
+		89106B4A27AAB09600D20627 /* word_wafflehouse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_wafflehouse.m4a; sourceTree = "<group>"; };
+		89106B4B27AAB09600D20627 /* word_barbiedetention.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbiedetention.m4a; sourceTree = "<group>"; };
+		89106B4C27AAB09600D20627 /* word_strawberryshortcake.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_strawberryshortcake.m4a; sourceTree = "<group>"; };
+		89106B4D27AAB09600D20627 /* word_baldylocks.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_baldylocks.m4a; sourceTree = "<group>"; };
+		89106B4E27AAB09600D20627 /* word_hb.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_hb.m4a; sourceTree = "<group>"; };
+		89106B4F27AAB09700D20627 /* word_fetch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_fetch.m4a; sourceTree = "<group>"; };
+		89106B5027AAB09700D20627 /* word_stepyourscottyup.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_stepyourscottyup.m4a; sourceTree = "<group>"; };
+		89106B5127AAB09700D20627 /* word_ben.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_ben.m4a; sourceTree = "<group>"; };
+		89106B5227AAB09700D20627 /* word_copyrightin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_copyrightin.m4a; sourceTree = "<group>"; };
+		89106B5327AAB09700D20627 /* word_barbiepowers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbiepowers.m4a; sourceTree = "<group>"; };
+		89106B5427AAB09700D20627 /* word_gabbagepatchkid.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_gabbagepatchkid.m4a; sourceTree = "<group>"; };
+		89106B5527AAB09700D20627 /* word_muni.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_muni.m4a; sourceTree = "<group>"; };
+		89106B5627AAB09700D20627 /* word_surfboard.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_surfboard.m4a; sourceTree = "<group>"; };
+		89106B5727AAB09700D20627 /* word_vertical.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_vertical.m4a; sourceTree = "<group>"; };
+		89106B5827AAB09700D20627 /* word_dollhouse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_dollhouse.m4a; sourceTree = "<group>"; };
+		89106B5927AAB09700D20627 /* word_ackorgiddyway.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = word_ackorgiddyway.m4a; path = /Users/nicolagigante/Documents/Code/Nictionary/Nictionary/Sounds/word_ackorgiddyway.m4a; sourceTree = "<absolute>"; };
+		89106B5A27AAB09700D20627 /* word_rogerdat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_rogerdat.m4a; sourceTree = "<group>"; };
+		89106B5B27AAB09700D20627 /* word_wigibear.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_wigibear.m4a; sourceTree = "<group>"; };
+		89106B5C27AAB09700D20627 /* word_alfredbitchcock.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_alfredbitchcock.m4a; sourceTree = "<group>"; };
+		89106B5D27AAB09700D20627 /* word_barbiejuice.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbiejuice.m4a; sourceTree = "<group>"; };
+		89106B5E27AAB09700D20627 /* word_barbiesfonenumber.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbiesfonenumber.m4a; sourceTree = "<group>"; };
+		89106B5F27AAB09700D20627 /* word_basement.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_basement.m4a; sourceTree = "<group>"; };
+		89106B6027AAB09700D20627 /* word_itsbarbiebitch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_itsbarbiebitch.m4a; sourceTree = "<group>"; };
+		89106B6127AAB09800D20627 /* word_judgejudy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_judgejudy.m4a; sourceTree = "<group>"; };
+		89106B6227AAB09800D20627 /* word_barbieberry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_barbieberry.m4a; sourceTree = "<group>"; };
+		89106B6327AAB09800D20627 /* word_frostythesnowman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_frostythesnowman.m4a; sourceTree = "<group>"; };
+		89106B6427AAB09800D20627 /* word_penthouse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_penthouse.m4a; sourceTree = "<group>"; };
+		89106B6527AAB09800D20627 /* word_raggedythespy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_raggedythespy.m4a; sourceTree = "<group>"; };
+		89106B6627AAB09800D20627 /* word_wetwhitewilly.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_wetwhitewilly.m4a; sourceTree = "<group>"; };
+		89106B6727AAB09800D20627 /* word_goose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = word_goose.m4a; sourceTree = "<group>"; };
+		89106B9527AAB41C00D20627 /* nicitionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nicitionary.json; sourceTree = "<group>"; };
+		89106B9827AAB45900D20627 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		89106B9A27AAE02800D20627 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		89106B9C27AAE3EA00D20627 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		89106B9E27AAE81100D20627 /* card_front_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_front_background.png; sourceTree = "<group>"; };
+		89106BA027AAF2CC00D20627 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		89106BA627AB022600D20627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89106BA727AB02B700D20627 /* cardpile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardpile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +199,17 @@
 		89106B0F27AAADC500D20627 /* Nictionary */ = {
 			isa = PBXGroup;
 			children = (
+				89106BA627AB022600D20627 /* Info.plist */,
+				89106B9727AAB44400D20627 /* Model */,
 				89106B1027AAADC500D20627 /* NictionaryApp.swift */,
 				89106B1227AAADC500D20627 /* ContentView.swift */,
+				89106B9C27AAE3EA00D20627 /* CardView.swift */,
+				89106BA027AAF2CC00D20627 /* PlaySound.swift */,
+				89106B9527AAB41C00D20627 /* nicitionary.json */,
 				89106B1427AAADC800D20627 /* Assets.xcassets */,
+				89106BA727AB02B700D20627 /* cardpile.png */,
+				89106B9E27AAE81100D20627 /* card_front_background.png */,
+				89106B3A27AAB01F00D20627 /* Sounds */,
 				89106B1627AAADC800D20627 /* Preview Content */,
 			);
 			path = Nictionary;
@@ -125,6 +238,67 @@
 				89106B2D27AAADC800D20627 /* NictionaryUITestsLaunchTests.swift */,
 			);
 			path = NictionaryUITests;
+			sourceTree = "<group>";
+		};
+		89106B3A27AAB01F00D20627 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				89106B5927AAB09700D20627 /* word_ackorgiddyway.m4a */,
+				89106B5C27AAB09700D20627 /* word_alfredbitchcock.m4a */,
+				89106B3E27AAB09600D20627 /* word_badbitchcheck.m4a */,
+				89106B4D27AAB09600D20627 /* word_baldylocks.m4a */,
+				89106B4027AAB09600D20627 /* word_balloonboy.m4a */,
+				89106B3F27AAB09600D20627 /* word_barbiebackhand.m4a */,
+				89106B6227AAB09800D20627 /* word_barbieberry.m4a */,
+				89106B3D27AAB09500D20627 /* word_barbieboombox.m4a */,
+				89106B4B27AAB09600D20627 /* word_barbiedetention.m4a */,
+				89106B5D27AAB09700D20627 /* word_barbiejuice.m4a */,
+				89106B5327AAB09700D20627 /* word_barbiepowers.m4a */,
+				89106B5E27AAB09700D20627 /* word_barbiesfonenumber.m4a */,
+				89106B5F27AAB09700D20627 /* word_basement.m4a */,
+				89106B5127AAB09700D20627 /* word_ben.m4a */,
+				89106B4627AAB09600D20627 /* word_bff.m4a */,
+				89106B4527AAB09600D20627 /* word_binafan.m4a */,
+				89106B3B27AAB09500D20627 /* word_catertoyourkenday.m4a */,
+				89106B3C27AAB09500D20627 /* word_chincheck.m4a */,
+				89106B5227AAB09700D20627 /* word_copyrightin.m4a */,
+				89106B4127AAB09600D20627 /* word_ddandan.m4a */,
+				89106B5827AAB09700D20627 /* word_dollhouse.m4a */,
+				89106B4427AAB09600D20627 /* word_dollylama.m4a */,
+				89106B4F27AAB09700D20627 /* word_fetch.m4a */,
+				89106B4227AAB09600D20627 /* word_firemarshall.m4a */,
+				89106B6327AAB09800D20627 /* word_frostythesnowman.m4a */,
+				89106B5427AAB09700D20627 /* word_gabbagepatchkid.m4a */,
+				89106B4727AAB09600D20627 /* word_gbr.m4a */,
+				89106B4827AAB09600D20627 /* word_getoffmyphone.m4a */,
+				89106B6727AAB09800D20627 /* word_goose.m4a */,
+				89106B4E27AAB09600D20627 /* word_hb.m4a */,
+				89106B4327AAB09600D20627 /* word_hiimronideutch.m4a */,
+				89106B6027AAB09700D20627 /* word_itsbarbiebitch.m4a */,
+				89106B6127AAB09800D20627 /* word_judgejudy.m4a */,
+				89106B5527AAB09700D20627 /* word_muni.m4a */,
+				89106B6427AAB09800D20627 /* word_penthouse.m4a */,
+				89106B6527AAB09800D20627 /* word_raggedythespy.m4a */,
+				89106B5A27AAB09700D20627 /* word_rogerdat.m4a */,
+				89106B5027AAB09700D20627 /* word_stepyourscottyup.m4a */,
+				89106B4C27AAB09600D20627 /* word_strawberryshortcake.m4a */,
+				89106B5627AAB09700D20627 /* word_surfboard.m4a */,
+				89106B4927AAB09600D20627 /* word_tumbledry.m4a */,
+				89106B5727AAB09700D20627 /* word_vertical.m4a */,
+				89106B4A27AAB09600D20627 /* word_wafflehouse.m4a */,
+				89106B6627AAB09800D20627 /* word_wetwhitewilly.m4a */,
+				89106B5B27AAB09700D20627 /* word_wigibear.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		89106B9727AAB44400D20627 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89106B9827AAB45900D20627 /* Word.swift */,
+				89106B9A27AAE02800D20627 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +405,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89106B7E27AAB09800D20627 /* word_ben.m4a in Resources */,
+				89106B9627AAB41C00D20627 /* nicitionary.json in Resources */,
+				89106B9227AAB09800D20627 /* word_raggedythespy.m4a in Resources */,
+				89106B6B27AAB09800D20627 /* word_badbitchcheck.m4a in Resources */,
+				89106B6A27AAB09800D20627 /* word_barbieboombox.m4a in Resources */,
+				89106B7227AAB09800D20627 /* word_binafan.m4a in Resources */,
+				89106B8E27AAB09800D20627 /* word_judgejudy.m4a in Resources */,
+				89106BA827AB02B700D20627 /* cardpile.png in Resources */,
+				89106B9427AAB09800D20627 /* word_goose.m4a in Resources */,
+				89106B8C27AAB09800D20627 /* word_basement.m4a in Resources */,
+				89106B7327AAB09800D20627 /* word_bff.m4a in Resources */,
+				89106B9F27AAE81100D20627 /* card_front_background.png in Resources */,
+				89106B7727AAB09800D20627 /* word_wafflehouse.m4a in Resources */,
 				89106B1827AAADC800D20627 /* Preview Assets.xcassets in Resources */,
+				89106B6E27AAB09800D20627 /* word_ddandan.m4a in Resources */,
+				89106B7827AAB09800D20627 /* word_barbiedetention.m4a in Resources */,
+				89106B8327AAB09800D20627 /* word_surfboard.m4a in Resources */,
+				89106B7F27AAB09800D20627 /* word_copyrightin.m4a in Resources */,
+				89106B7B27AAB09800D20627 /* word_hb.m4a in Resources */,
+				89106B8727AAB09800D20627 /* word_rogerdat.m4a in Resources */,
+				89106B8827AAB09800D20627 /* word_wigibear.m4a in Resources */,
+				89106B8527AAB09800D20627 /* word_dollhouse.m4a in Resources */,
+				89106B8927AAB09800D20627 /* word_alfredbitchcock.m4a in Resources */,
+				89106B7127AAB09800D20627 /* word_dollylama.m4a in Resources */,
+				89106B6927AAB09800D20627 /* word_chincheck.m4a in Resources */,
+				89106B9127AAB09800D20627 /* word_penthouse.m4a in Resources */,
+				89106B6827AAB09800D20627 /* word_catertoyourkenday.m4a in Resources */,
+				89106B7027AAB09800D20627 /* word_hiimronideutch.m4a in Resources */,
+				89106B7627AAB09800D20627 /* word_tumbledry.m4a in Resources */,
+				89106B7427AAB09800D20627 /* word_gbr.m4a in Resources */,
+				89106B6C27AAB09800D20627 /* word_barbiebackhand.m4a in Resources */,
+				89106B7527AAB09800D20627 /* word_getoffmyphone.m4a in Resources */,
+				89106B8F27AAB09800D20627 /* word_barbieberry.m4a in Resources */,
+				89106B8D27AAB09800D20627 /* word_itsbarbiebitch.m4a in Resources */,
+				89106B7927AAB09800D20627 /* word_strawberryshortcake.m4a in Resources */,
+				89106B8127AAB09800D20627 /* word_gabbagepatchkid.m4a in Resources */,
+				89106B7D27AAB09800D20627 /* word_stepyourscottyup.m4a in Resources */,
+				89106B7A27AAB09800D20627 /* word_baldylocks.m4a in Resources */,
+				89106B8B27AAB09800D20627 /* word_barbiesfonenumber.m4a in Resources */,
+				89106B8A27AAB09800D20627 /* word_barbiejuice.m4a in Resources */,
+				89106B8627AAB09800D20627 /* word_ackorgiddyway.m4a in Resources */,
+				89106B7C27AAB09800D20627 /* word_fetch.m4a in Resources */,
+				89106B8427AAB09800D20627 /* word_vertical.m4a in Resources */,
+				89106B9327AAB09800D20627 /* word_wetwhitewilly.m4a in Resources */,
 				89106B1527AAADC800D20627 /* Assets.xcassets in Resources */,
+				89106B6F27AAB09800D20627 /* word_firemarshall.m4a in Resources */,
+				89106B6D27AAB09800D20627 /* word_balloonboy.m4a in Resources */,
+				89106B9027AAB09800D20627 /* word_frostythesnowman.m4a in Resources */,
+				89106B8027AAB09800D20627 /* word_barbiepowers.m4a in Resources */,
+				89106B8227AAB09800D20627 /* word_muni.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +480,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89106B1327AAADC500D20627 /* ContentView.swift in Sources */,
+				89106BA127AAF2CC00D20627 /* PlaySound.swift in Sources */,
+				89106B9B27AAE02800D20627 /* ModelData.swift in Sources */,
 				89106B1127AAADC500D20627 /* NictionaryApp.swift in Sources */,
+				89106B9927AAB45900D20627 /* Word.swift in Sources */,
+				89106B9D27AAE3EA00D20627 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +646,12 @@
 				DEVELOPMENT_TEAM = PBT2VEX3CE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nictionary/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Nictionary;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,7 +663,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,9 +678,12 @@
 				DEVELOPMENT_TEAM = PBT2VEX3CE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nictionary/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Nictionary;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,7 +695,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
