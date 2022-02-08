@@ -8,15 +8,6 @@
 import SwiftUI
 import Collections
 
-let images = [
-    Image("card_strip_1").resizable(resizingMode: .stretch),
-    Image("card_strip_2").resizable(resizingMode: .stretch),
-    Image("card_strip_3").resizable(resizingMode: .stretch),
-    Image("card_strip_4").resizable(resizingMode: .stretch),
-    Image("card_strip_5").resizable(resizingMode: .stretch),
-    Image("card_strip_6").resizable(resizingMode: .stretch)
-]
-
 var viewNames: OrderedDictionary = [
     "book.fill": "Nictionary",
     "music.note": "Media",
@@ -24,6 +15,8 @@ var viewNames: OrderedDictionary = [
     "bus.fill": "Events"
 ]
 
+var barbiePink = Color(red:253.0/255.0, green: 175.0/255.0, blue: 197.0/255.0)
+var darkerPink = Color(red: 139/255, green: 88/255, blue: 107/255)
 
 struct ContentView: View {
     @EnvironmentObject var modelData: ModelData
@@ -56,35 +49,74 @@ struct ContentView: View {
                 Spacer()
                 switch selectedTab {
                 case "book.fill":
-                    ZStack {
-                        Button {
-                            modelData.load()
-                        } label: {
-                            VStack (alignment: .center){
-                            Image(systemName: "arrow.counterclockwise")
-                                .foregroundColor(.white)
-                                .font(.system(size: 100))
-                                Text("Refresh")
-                                    .foregroundColor(.white)
-                            }.padding()
-                        }
-                        HStack(alignment: .center){
+                    VStack {
+                        HStack {
+                            Button {
+                                
+                            } label: {
                                 ZStack {
-                                    ForEach (modelData.words) { word in
-                                        if (self.maxID - 4)...self.maxID ~= word.id {
-                                            CardView(word: word, image: images.randomElement()!, onRemove: { removedCard in
-                                            self.modelData.words.removeAll {$0.id == removedCard.id}
-                                        })
-                                            .animation(.spring())
-                                            .frame(width: self.getCardWidth(geometry, id: word.id), height: 450)
-                                            .offset(x: 0, y: self.getCardOffset(geometry, id: word.id))
-                                            .padding()
+                                    Button_bg()
+                                    VStack (alignment: .center) {
+                                        HStack {
+                                            Image(systemName: "magnifyingglass")
+                                                .foregroundColor(darkerPink)
+                                                .font(.system(size: 20))
+                                            Text("LOOK UP")
+                                                .foregroundColor(darkerPink)
+                                                .fontWeight(.bold)
+                                        }
+                                    }.padding()
+                                }.frame(width: 140, height:50)
+                            }
+                            Button {
+                                
+                            } label: {
+                                ZStack {
+                                    Button_bg()
+                                    VStack (alignment: .center) {
+                                        HStack {
+                                            Image(systemName: "shuffle")
+                                                .foregroundColor(darkerPink)
+                                                .font(.system(size: 20))
+                                            Text("RANDOM")
+                                                .foregroundColor(darkerPink)
+                                                .fontWeight(.bold)
+                                        }
+                                    }.padding()
+                                }.frame(width: 150, height:50)
+                            }
+                        }
+                        Spacer()
+                        ZStack {
+                            Button {
+                                modelData.load()
+                            } label: {
+                                VStack (alignment: .center){
+                                    Image(systemName: "arrow.counterclockwise")
+                                        .foregroundColor(.white)
+                                        .font(.system(size: 100))
+                                    Text("Refresh")
+                                        .foregroundColor(.white)
+                                }.padding()
+                            }
+                            HStack(alignment: .center){
+                                    ZStack {
+                                        ForEach (modelData.words) { word in
+                                            if (self.maxID - 4)...self.maxID ~= word.id {
+                                                CardView(word: word, image: word.image, onRemove: { removedCard in
+                                                    self.modelData.words.removeAll {$0.id == removedCard.id}
+                                                })
+                                                .animation(.spring())
+                                                .frame(width: self.getCardWidth(geometry, id: word.id), height: 450)
+                                                .offset(x: 0, y: self.getCardOffset(geometry, id: word.id))
+                                                .padding()
+                                            }
                                         }
                                     }
-                                }
-                            }.padding()
+                            }.frame(width: UIScreen.main.bounds.size.width).padding([.top, .bottom])
+                        }
+                        Spacer()
                     }
-                    
                 default:
                     VStack (alignment: .center) {
                         ZStack {
@@ -122,5 +154,14 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(ModelData())
+    }
+}
+
+struct Button_bg: View {
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 15).fill(barbiePink)
+            RoundedRectangle(cornerRadius: 15).stroke(darkerPink, lineWidth: 4).shadow(color: darkerPink, radius: 3, x: 2, y: 0).clipShape(RoundedRectangle(cornerRadius: 15)).shadow(color: darkerPink, radius: 5, x: -2, y: 0).clipShape(RoundedRectangle(cornerRadius: 15))
+        }
     }
 }
