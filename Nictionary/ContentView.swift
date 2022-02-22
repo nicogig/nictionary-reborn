@@ -19,8 +19,12 @@ var barbiePink = Color(red:253.0/255.0, green: 175.0/255.0, blue: 197.0/255.0)
 var darkerPink = Color(red: 139/255, green: 88/255, blue: 107/255)
 
 struct ContentView: View {
+    
     @EnvironmentObject var modelData: ModelData
     @State var selectedTab = "book.fill"
+    @State var lookUp = false
+    @State var randomCard = false
+    
     private func getCardWidth(_ geometry: GeometryProxy, id: Int) -> CGFloat {
         let offset: CGFloat = CGFloat(modelData.words.count - 1 - id) * 10
         return 350 - offset
@@ -36,6 +40,21 @@ struct ContentView: View {
     }
     
     var body: some View {
+        
+        if lookUp {
+            withAnimation {
+                SearchCard(lookUp: $lookUp, wordChosen: self.modelData.words.randomElement()!)
+            }
+        } else if randomCard {
+            withAnimation {
+                RandomCardView(
+                    randomCard: $randomCard,
+                    word: modelData.words.randomElement()!,
+                    sectionName: "Random Card")
+            }
+            
+        }
+        else {
         GeometryReader { geometry in
         ZStack {
             Image("background")
@@ -45,14 +64,18 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: geometry.size.width)
             VStack {
-                Rectangle().fill(LinearGradient(gradient: Gradient(colors: [Color.init(red: 237/255, green: 244/255, blue: 247/255), Color.init(red: 191/255, green: 199/255, blue: 203/255)]), startPoint: UnitPoint(x: 0.5, y: 0.07), endPoint: .bottom)).frame(width: geometry.size.width, height: geometry.safeAreaInsets.top).edgesIgnoringSafeArea(.all).shadow(radius: 10)
+                
+                StatusBar(geometry: geometry)
+                
                 Spacer()
+                
                 switch selectedTab {
+
                 case "book.fill":
                     VStack {
                         HStack {
                             Button {
-                                
+                                self.lookUp = true
                             } label: {
                                 ZStack {
                                     Button_bg()
@@ -69,7 +92,7 @@ struct ContentView: View {
                                 }.frame(width: 140, height:50)
                             }
                             Button {
-                                
+                                self.randomCard = true
                             } label: {
                                 ZStack {
                                     Button_bg()
@@ -104,7 +127,9 @@ struct ContentView: View {
                                         ForEach (modelData.words) { word in
                                             if (self.maxID - 4)...self.maxID ~= word.id {
                                                 CardView(word: word, image: word.image, onRemove: { removedCard in
-                                                    self.modelData.words.removeAll {$0.id == removedCard.id}
+                                                    withAnimation {
+                                                        self.modelData.words.removeAll {$0.id == removedCard.id}
+                                                    }
                                                 })
                                                 .animation(.spring())
                                                 .frame(width: self.getCardWidth(geometry, id: word.id), height: 450)
@@ -117,6 +142,7 @@ struct ContentView: View {
                         }
                         Spacer()
                     }
+
                 default:
                     VStack (alignment: .center) {
                         ZStack {
@@ -149,6 +175,7 @@ struct ContentView: View {
         }
     }
 }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -157,11 +184,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Button_bg: View {
-    var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 15).fill(barbiePink)
-            RoundedRectangle(cornerRadius: 15).stroke(darkerPink, lineWidth: 4).shadow(color: darkerPink, radius: 3, x: 2, y: 0).clipShape(RoundedRectangle(cornerRadius: 15)).shadow(color: darkerPink, radius: 5, x: -2, y: 0).clipShape(RoundedRectangle(cornerRadius: 15))
-        }
-    }
-}

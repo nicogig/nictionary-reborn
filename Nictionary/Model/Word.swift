@@ -25,6 +25,6 @@ struct Word: Hashable, Codable, Identifiable {
     var phon: String
     var def: String
     
-    var image: Image { images.randomElement()! }
+    var image: Image { images[id % 6] }
     
 }

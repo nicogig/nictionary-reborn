@@ -11,9 +11,12 @@ import AVKit
 struct CardView: View {
     @State var audioPlayer: AVAudioPlayer!
     @State var translation: CGSize = .zero
+    @State var isBeingDragged: Bool = false
+    @GestureState private var dragGestureActive: Bool = false
+    @State var dragOffset: CGSize = .zero
     let wordInfo: Word
     private var onRemove: (_ word: Word) -> Void
-    private var thresholdPercentage: CGFloat = 0.5
+    private var thresholdPercentage: CGFloat = 0.3
     var barbiePink = Color(red:253.0/255.0, green: 175.0/255.0, blue: 197.0/255.0)
     var image: Image
     
@@ -56,6 +59,7 @@ struct CardView: View {
                             Text(wordInfo.def)
                                 .foregroundColor(.black)
                         }
+                        .gesture(DragGesture())
                     }.padding()
                         Spacer()
                         ZStack {
@@ -85,22 +89,38 @@ struct CardView: View {
             .animation(.interactiveSpring())
             .offset(x: self.translation.width, y: 0)
             .rotationEffect(.degrees(Double(self.translation.width / geometry.size.width) * 25), anchor: .center)
+            .disabled(self.isBeingDragged)
             .gesture(
                 DragGesture()
+                    .updating($dragGestureActive) { value, state, transaction in
+                                state = true
+                    }
                     .onChanged { value in
                         self.translation = value.translation
+                        self.isBeingDragged = true
                     }.onEnded { value in
                         if abs(self.getGesturePercentage(geometry, from: value)) > self.thresholdPercentage {
                             self.onRemove(self.wordInfo)
                         } else {
                             self.translation = .zero
+                            self.isBeingDragged = false
                         }
                     }
             )
+            .onChange(of: dragGestureActive) { newIsActiveValue in
+                if newIsActiveValue == false {
+                    dragCancelled()
+                }
+            }
             // Here
         }
     }
-        
+    
+    private func dragCancelled() {
+            print("dragCancelled")
+        self.translation = .zero
+        self.isBeingDragged = false
+    }
 }
 
 struct CardView_Previews: PreviewProvider {

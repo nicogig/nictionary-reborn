@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct NictionaryApp: App {
     @StateObject private var modelData = ModelData()
